@@ -1,12 +1,7 @@
-# to jest program z zadaniami
-# zrobiony przez studenta
-
 def kalkulator():
-    # pytam o liczby
     num1 = float(input("Podaj pierwszą liczbę: "))
     num2 = float(input("Podaj drugą liczbę: "))
     op = input("Podaj operację (+, -, *, /): ")
-    # sprawdzam operacje
     if op == '+':
         result = num1 + num2
     elif op == '-':
@@ -22,10 +17,9 @@ def kalkulator():
     else:
         print("Nieprawidłowa operacja")
         return
-    print("Wynik: " + str(result))  # zmienilem na str bo f-string to za trudne
+    print("Wynik: " + str(result))
 
 def konwerter():
-    # konwersja temp
     direction = input("Wybierz kierunek (C dla C->F, F dla F->C): ").upper()
     temp = float(input("Podaj temperaturę: "))
     if direction == 'C':
@@ -38,7 +32,6 @@ def konwerter():
         print("Nieprawidłowy wybór")
 
 def srednia():
-    # licze srednia ocen
     n = int(input("Podaj liczbę ocen: "))
     if n <= 0:
         print("Liczba ocen musi być większa od zera")
@@ -54,7 +47,6 @@ def srednia():
     else:
         print("Uczeń nie zdał.")
 
-# menu
 while True:
     print("\nWybierz zadanie:")
     print("1. Kalkulator")

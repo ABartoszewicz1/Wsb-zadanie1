@@ -1,10 +1,7 @@
 using System;
 
-// program zadan zrobiony przez studenta
-
 class Program {
     static void Main() {
-        // petla menu
         while (true) {
             Console.WriteLine("\nWybierz zadanie:");
             Console.WriteLine("1. Kalkulator");
@@ -12,7 +9,6 @@ class Program {
             Console.WriteLine("3. Średnia ocen");
             Console.WriteLine("0. Wyjście");
             string wybor = Console.ReadLine();
-            // switch bo nauczyciel powiedzial
             switch (wybor) {
                 case "1":
                     Kalkulator();
@@ -33,7 +29,6 @@ class Program {
     }
 
     static void Kalkulator() {
-        // pytam o liczby
         Console.Write("Podaj pierwszą liczbę: ");
         double num1 = double.Parse(Console.ReadLine());
         Console.Write("Podaj drugą liczbę: ");
@@ -41,7 +36,6 @@ class Program {
         Console.Write("Podaj operację (+, -, *, /): ");
         string op = Console.ReadLine();
         double result = 0;
-        // sprawdzam operacje
         switch (op) {
             case "+":
                 result = num1 + num2;
@@ -64,12 +58,10 @@ class Program {
                 Console.WriteLine("Nieprawidłowa operacja");
                 return;
         }
-        // wypisuje wynik
         Console.WriteLine("Wynik: " + result.ToString());
     }
 
     static void Konwerter() {
-        // konwersja
         Console.Write("Wybierz kierunek (C dla C->F, F dla F->C): ");
         string direction = Console.ReadLine().ToUpper();
         Console.Write("Podaj temperaturę: ");
@@ -86,7 +78,6 @@ class Program {
     }
 
     static void Srednia() {
-        // licze srednia
         Console.Write("Podaj liczbę ocen: ");
         int n = int.Parse(Console.ReadLine());
         if (n <= 0) {

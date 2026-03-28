@@ -1,0 +1,15 @@
+/workspaces/Wsb-zadanie1/bin/Debug/net8.0/Zadania
+/workspaces/Wsb-zadanie1/bin/Debug/net8.0/Zadania.deps.json
+/workspaces/Wsb-zadanie1/bin/Debug/net8.0/Zadania.runtimeconfig.json
+/workspaces/Wsb-zadanie1/bin/Debug/net8.0/Zadania.dll
+/workspaces/Wsb-zadanie1/bin/Debug/net8.0/Zadania.pdb
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/Zadania.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/Zadania.AssemblyInfoInputs.cache
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/Zadania.AssemblyInfo.cs
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/Zadania.csproj.CoreCompileInputs.cache
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/Zadania.sourcelink.json
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/Zadania.dll
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/refint/Zadania.dll
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/Zadania.pdb
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/Zadania.genruntimeconfig.cache
+/workspaces/Wsb-zadanie1/obj/Debug/net8.0/ref/Zadania.dll

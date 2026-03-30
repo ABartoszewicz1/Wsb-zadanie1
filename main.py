@@ -31,7 +31,17 @@ if wybor == "1":
         print(f"Wynik: {wynik}")
 elif wybor == "2":
     # konwerter
-    pass
+    kierunek = input("Wpisz C dla Celsjusza na Fahrenheita lub F dla Fahrenheita na Celsjusza: ")
+    temp = float(input("Podaj temperaturę: "))
+    
+    if kierunek.upper() == "C":
+        f = temp * 1.8 + 32
+        print(f"{temp}°C = {f}°F")
+    elif kierunek.upper() == "F":
+        c = (temp - 32) / 1.8
+        print(f"{temp}°F = {c}°C")
+    else:
+        print("Nieprawidłowy wybór kierunku!")
 elif wybor == "3":
     # srednia
     pass
